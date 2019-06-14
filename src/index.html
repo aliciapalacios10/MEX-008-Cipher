@@ -1,15 +1,41 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
-    </div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
+
+<head>
+	<meta charset="utf-8">
+	<title>Caesar Cipher</title>
+	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Dosis|Orbitron&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div id="root">
+		<h1>CodAcess</h1>
+
+		<form action="index.html" method="POST">
+			<br><br>
+      <label for="numero-desplazar">Ingresa Número a Desplazar</label>
+      <br><br> 
+      <input type="text" autofocus name="numeroADesplazar" id="numero" required/>
+      <br><br>
+      <label for="ingresa-texto">Ingresa las dos primeras letras de tu nombre y apellido</label>
+      <br><br>
+      <input type="text" name="textoACifrar" id="texto" required/>
+      <br><br>
+      <label for="resultado">Tu texto cifrado ó Decifrado es</label>
+      <br><br>
+      <input type="text" name="textoCifrado" id="resultado" required/>
+      <br><br>
+      <input type="button" id="cifrar" name="cifrar" value="cifrar"/>
+
+      <input type="button" id="descifrar" name="descifrar" value="descifrar"/>
+      <br><br>
+    </form>
+
+  </div>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
+</body>
+
 </html>

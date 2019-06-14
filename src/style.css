@@ -1,0 +1,73 @@
+*{
+    background-image: url(11.jpeg);
+      text-align: center;
+  }
+  h1{
+    color: white;
+      font-family: 'Orbitron', sans-serif;
+      font-size: 100px;
+      margin: 20px;
+  }
+  label{
+    color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 30px;
+  }
+  #numero{
+    color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 15px;
+      border-radius: 28px;
+      border: 2px solid white;
+      padding: 3px;
+      padding-left:80px;
+      padding-right:80px;
+  }
+  #texto{
+    color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 15px;
+      border-radius: 28px;
+      border: 2px solid white;
+      padding: 3px;
+      padding-left:80px;
+      padding-right:80px;
+  }
+  #resultado{
+    color: white;
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 15px;
+      border-radius: 28px;
+      border: 2px solid white;
+      padding: 3px;
+      padding-left:90px;
+      padding-right:90px;
+  }
+  #cifrar{
+    font-family: 'Josefin Sans', sans-serif;
+       font-size: 10px;
+       color: white;
+       text-align: center;
+       border-radius: 28px;
+       border: 2px solid white;
+       padding: 3px;
+       padding-left: 30px;
+       padding-right: 10px;
+  }
+  #descifrar{
+    font-family: 'Josefin Sans', sans-serif;
+       font-size: 10px;
+       color: white;
+       border-radius: 28px;
+       border: 2px solid white;
+       padding: 3px;
+       padding-left: 30px;
+       padding-right: 10px;
+  }
+  #root{
+    padding:0%;
+    margin: 0%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
