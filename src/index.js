@@ -5,19 +5,20 @@ const botonCifrar = document.getElementById("Codificar"); // Traer el botón cif
 const botonDescifrar = document.getElementById("Decodificar");
 
 const empezar = document.getElementById("empezar");
-empezar.addEventListener("click", irACifrar,)
-function irACifrar() {
+const irACifrar =()=> {
     location.href = "index.html";
 }
+empezar.addEventListener("click", irACifrar);
+
 
 botonCifrar.addEventListener("click", ()=>{
     let textoUsuarioM = textoUsuario.value;
     resultado.value = (window.cipher.encode(numero.value, textoUsuarioM));
-    console.log(window.cipher.encode(numero.value, textoUsuarioM));
+    /*console.log(window.cipher.encode(numero.value, textoUsuarioM));*/
 }); 
 
 botonDescifrar.addEventListener("click", ()=>{
     let textoUsuarioM = textoUsuario.value;
     resultado.value = (window.cipher.decode(numero.value, textoUsuarioM));
-    console.log(window.cipher.encode(numero.value, textoUsuarioM));
+    /*console.log(window.cipher.encode(numero.value, textoUsuarioM));*/
 });
