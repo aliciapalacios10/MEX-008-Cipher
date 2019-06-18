@@ -1,5 +1,25 @@
 # Cifrado César
 
+Aplicación: CodAcess
+CodeAcces es una aplicación para codificar y decodificar claves de accesos para eventos privados de forma fácil y rápida, para un mejor control de sus invitados sin la necesidad de accesos físicos y sin el temor a ser falsificados o clonados, ya que cada clave de acceso puede ser personalizada.
+
+¿Cómo pensaste en los usuarios?
+Pense en los usuarios de manera que tengan un acceso personalizado y seguro con el cual sus invitados puedan entrar fácilmente a los eventos privados.
+
+¿Cúal fue tu proceso para definir el producto final a nivel de experiencia e interfaz?
+Se definio como algo sencillo que no pareciera complejo y fuera fácil de usar con una interfaz amigable y de fácil acceso sin muchos procedimientos para obtener el resultado.
+
+¿Quiénes son los principales usuarios del producto?
+Los principales usuarios serán quienes requieran hacer un evento con acceso controlado y seguro de sus invitados.
+
+¿Cúales son los objetivos de estos usuarios en relación con tu producto?
+El objetivo es mantener un control total sobre el acceso de los invitados, de tal manera que se evitaría falsificación y/o clonación de accesos, ya que ellos podrán verificar al momento si las claves de acceso son las correctas.
+
+
+Pasos para descargar, instalar y ejecutar la aplicación
+
+
+
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)

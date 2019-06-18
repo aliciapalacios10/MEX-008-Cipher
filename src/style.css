@@ -1,73 +1,90 @@
-*{
-    background-image: url(11.jpeg);
-      text-align: center;
-  }
+body{
+ background-image: url(01.jpg);
+  background-size: cover;
+  text-align: center;
+}
   h1{
     color: white;
-      font-family: 'Orbitron', sans-serif;
+    font-family: 'Orbitron', sans-serif;
       font-size: 100px;
       margin: 20px;
   }
-  label{
-    color: white;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 30px;
-  }
-  #numero{
-    color: white;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 15px;
-      border-radius: 28px;
-      border: 2px solid white;
-      padding: 3px;
-      padding-left:80px;
-      padding-right:80px;
-  }
-  #texto{
-    color: white;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 15px;
-      border-radius: 28px;
-      border: 2px solid white;
-      padding: 3px;
-      padding-left:80px;
-      padding-right:80px;
-  }
-  #resultado{
-    color: white;
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 15px;
-      border-radius: 28px;
-      border: 2px solid white;
-      padding: 3px;
-      padding-left:90px;
-      padding-right:90px;
-  }
-  #cifrar{
-    font-family: 'Josefin Sans', sans-serif;
-       font-size: 10px;
-       color: white;
-       text-align: center;
-       border-radius: 28px;
-       border: 2px solid white;
-       padding: 3px;
-       padding-left: 30px;
-       padding-right: 10px;
-  }
-  #descifrar{
-    font-family: 'Josefin Sans', sans-serif;
-       font-size: 10px;
-       color: white;
-       border-radius: 28px;
-       border: 2px solid white;
-       padding: 3px;
-       padding-left: 30px;
-       padding-right: 10px;
-  }
-  #root{
-    padding:0%;
-    margin: 0%;
+  .root{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    border-radius: 28px;
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-  
   }
+label{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+      font-size: 35px;
+}
+.caja-texto{
+     color: black;
+    background-color: white;
+    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 32px;
+      border: 2px solid white;
+      padding: 3px;
+      padding-left:80px;
+      padding-right:80px;
+  }
+  .boton{
+    position: center;
+    width: 15%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 200px;
+  }
+  .intro{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    white-space: normal;
+    padding: 10px;
+    margin: auto;
+  }
+  h2{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+      font-size: 35px;
+      margin: 20px;
+  }
+  ol{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+      font-size: 30px;
+      text-align: initial;
+  }
+  #empezar{
+    position: center;
+    width: 40%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 27px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 200px;
+    /*border: 2px solid blue;*/
+   }
+   /*.botonUno:hover{
+    color: black;
+    background-color: #ffffff;
+   }*/
+  
+ 

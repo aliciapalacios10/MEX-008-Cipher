@@ -2,37 +2,35 @@
 <html>
 
 <head>
-	<meta charset="utf-8">
-	<title>Caesar Cipher</title>
-	<link rel="stylesheet" href="style.css" />
-	<link href="https://fonts.googleapis.com/css?family=Dosis|Orbitron&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
-</head>
+  <meta charset="utf-8">
+  <title>CodAcess</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 
 <body>
-	<div id="root">
-		<h1>CodAcess</h1>
+  <h1>CodAcess</h1>
+  <dvi id="root">
+    <form action="index.html" method="POST">
 
-		<form action="index.html" method="POST">
-			<br><br>
-      <label for="numero-desplazar">Ingresa Número a Desplazar</label>
-      <br><br> 
-      <input type="text" autofocus name="numeroADesplazar" id="numero" required/>
       <br><br>
-      <label for="ingresa-texto">Ingresa las dos primeras letras de tu nombre y apellido</label>
+      <label for="numero-desplazar">Ingresa un número del 1 al 100</label>
       <br><br>
-      <input type="text" name="textoACifrar" id="texto" required/>
+      <input type="text" class="caja-texto" name="numeroADesplazar" id="numero" required />
       <br><br>
-      <label for="resultado">Tu texto cifrado ó Decifrado es</label>
+      <label for="ingresa-texto">Ingresa texto a codificar y decodificar</label>
       <br><br>
-      <input type="text" name="textoCifrado" id="resultado" required/>
+      <input type="text" class="caja-texto" name="textoACifrar" id="texto" required />
       <br><br>
-      <input type="button" id="cifrar" name="cifrar" value="cifrar"/>
+      <label for="resultado">Tu texto codificado ó decodificado es</label>
+      <br><br>
+      <input type="text" class="caja-texto" name="textoCifrado" id="resultado" required />
+      <br><br><br>
 
-      <input type="button" id="descifrar" name="descifrar" value="descifrar"/>
-      <br><br>
+      <input type="button" class="boton" id="Codificar" name="Codificar" value="Codificar" />
+      <input type="button" class="boton" id="Decodificar" name="Decodificar" value="Decodificar" />
+      <br><br><br>
     </form>
-
   </div>
   <script src="cipher.js"></script>
   <script src="index.js"></script>

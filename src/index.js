@@ -1,20 +1,23 @@
 let numero = document.getElementById("numero"); // Traer el valor de numero offset
 let textoUsuario = document.getElementById("texto"); // Traer el valor de texto
 const resultado = document.getElementById("resultado"); // Traer la caja de texto resultado
-const botonCifrar = document.getElementById("cifrar"); // Traer el botón cifrar
-const botonDescifrar = document.getElementById("descifrar");
+const botonCifrar = document.getElementById("Codificar"); // Traer el botón cifrar
+const botonDescifrar = document.getElementById("Decodificar");
+
+const empezar = document.getElementById("empezar");
+empezar.addEventListener("click", irACifrar,)
+function irACifrar() {
+    location.href = "index.html";
+}
 
 botonCifrar.addEventListener("click", ()=>{
-    let textoUsuarioM = textoUsuario.value.toUpperCase();
+    let textoUsuarioM = textoUsuario.value;
     resultado.value = (window.cipher.encode(numero.value, textoUsuarioM));
     console.log(window.cipher.encode(numero.value, textoUsuarioM));
 }); 
 
 botonDescifrar.addEventListener("click", ()=>{
-    let textoUsuarioM = textoUsuario.value.toUpperCase();
+    let textoUsuarioM = textoUsuario.value;
     resultado.value = (window.cipher.decode(numero.value, textoUsuarioM));
     console.log(window.cipher.encode(numero.value, textoUsuarioM));
 });
-
-
-// comentario
