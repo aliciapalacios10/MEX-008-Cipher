@@ -4,11 +4,6 @@ const resultado = document.getElementById("resultado"); // Traer la caja de text
 const botonCifrar = document.getElementById("Codificar"); // Traer el botón cifrar
 const botonDescifrar = document.getElementById("Decodificar");
 
-const empezar = document.getElementById("empezar");
-const irACifrar =()=> {
-    location.href = "index.html";
-}
-empezar.addEventListener("click", irACifrar);
 
 
 botonCifrar.addEventListener("click", ()=>{
