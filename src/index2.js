@@ -1,5 +1,4 @@
-const empezar = document.getElementById("empezar");
-
+const empezar = document.getElementById('empezar');
 
 const irACifrar =()=> {
     location.href = "index.html";

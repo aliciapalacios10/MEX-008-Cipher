@@ -4,52 +4,21 @@ body{
   text-align: center;
 }
   h1{
-    color: white;
+  color: white;
     font-family: 'Orbitron', sans-serif;
-      font-size: 100px;
-      margin: 20px;
+    font-size: 100px;
+    margin: 20px;
   }
   .root{
-    background-color: whitesmoke;
+  background-color: whitesmoke;
     opacity: 0.7;
     border-radius: 28px;
     width: 70%;
     margin-left: auto;
     margin-right: auto;
   }
-label{
-  color:white;
-  font-family: 'Josefin Sans', sans-serif;
-      font-size: 35px;
-}
-.caja-texto{
-     color: black;
-    background-color: white;
-    opacity: 0.8;
-    font-family: 'Josefin Sans', sans-serif;
-      font-size: 20px;
-      text-align: center;
-      border-radius: 32px;
-      border: 2px solid white;
-      padding: 3px;
-      padding-left:80px;
-      padding-right:80px;
-  }
-  .boton{
-    position: center;
-    width: 15%;
-    text-decoration: none;
-    padding: 10px;
-    margin: 1%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: black;
-    border-radius: 200px;
-  }
   .intro{
-    color: black;
+  color: black;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 30px;
     white-space: normal;
@@ -82,9 +51,63 @@ label{
     border-radius: 200px;
     /*border: 2px solid blue;*/
    }
-   /*.botonUno:hover{
+   #empezar:hover{
+    color: white;
+    /*background-color: #ffffff;*/
+    background-color: #CD5C5C;
+   }
+  label{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+      font-size: 35px;
+   }
+  .caja-texto{
+     color: black;
+     background-color: white;
+     opacity: 0.8;
+     font-family: 'Josefin Sans', sans-serif;
+      font-size: 20px;
+      text-align: center;
+      border-radius: 32px;
+      border: 2px solid white;
+      padding: 3px;
+      padding-left:80px;
+      padding-right:80px;
+  }
+  .boton{
+    position: center;
+    width: 15%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 200px;
+  }
+  .boton:hover{
     color: black;
-    background-color: #ffffff;
-   }*/
+    background-color: #CD5C5C;
+   }
+  
+   .boton-inicio{
+    position: ;
+    width: 15%;
+    text-decoration: none;
+    padding: 10px;
+    margin: 1%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 200px;
+   }
+   .boton-inicio:hover{
+    color:black;
+    background-color: #CD5C5C;
+   }
   
  

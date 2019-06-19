@@ -3,8 +3,13 @@ let textoUsuario = document.getElementById("texto"); // Traer el valor de texto
 const resultado = document.getElementById("resultado"); // Traer la caja de texto resultado
 const botonCifrar = document.getElementById("Codificar"); // Traer el botón cifrar
 const botonDescifrar = document.getElementById("Decodificar");
+const botonInicio = document.getElementById("inicio")
 
 
+const irAInicio =()=> {
+    location.href = "inicio.html";
+}
+botonInicio.addEventListener("click", irAInicio);
 
 botonCifrar.addEventListener("click", ()=>{
     let textoUsuarioM = textoUsuario.value;
