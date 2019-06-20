@@ -2,7 +2,6 @@ window.cipher = {
   encode : (numero, textoUsuario) =>{
     let resultado = "";
     numero = parseInt(numero);
-    //console.log(typeof  numero)
       for (let i = 0; i < textoUsuario.length; i++) { // El for recorrera el string de acuerdo a la longitud de la cadena
         let codigoAscii = textoUsuario.charCodeAt(i); // Número de letra en codigo Ascii
         if (codigoAscii >= 65 && codigoAscii <=90){ // Letras mayusuculas en codigo Ascii
@@ -14,7 +13,7 @@ window.cipher = {
           let nuevoCodigoAscii = (String.fromCharCode(formula)); // Nuevo número de letra en codigo Ascii
           resultado = resultado + nuevoCodigoAscii;
         } else { 
-          resultado = resultado + textoUsuario[i]; 
+          resultado = resultado + textoUsuario[i];
         }
            
         }

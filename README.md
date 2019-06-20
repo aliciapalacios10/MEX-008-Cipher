@@ -1,7 +1,7 @@
 # Cifrado César
 
 Aplicación: CodAcess
-CodeAcces es una aplicación para codificar y decodificar claves de accesos para eventos privados de forma fácil y rápida, para un mejor control de sus invitados sin la necesidad de accesos físicos y sin el temor a ser falsificados o clonados, ya que cada clave de acceso puede ser personalizada.
+CodeAcces es una aplicación para codificar y decodificar claves de acceso para eventos privados de forma fácil y rápida, para un mejor control de sus invitados sin la necesidad de accesos físicos y sin el temor a ser falsificados o clonados, ya que cada clave de acceso puede ser personalizada.
 
 ¿Cómo pensaste en los usuarios?
 Pense en los usuarios de manera que tengan un acceso personalizado y seguro con el cual sus invitados puedan entrar fácilmente a los eventos privados.

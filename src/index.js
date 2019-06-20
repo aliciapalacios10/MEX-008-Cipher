@@ -3,13 +3,21 @@ let textoUsuario = document.getElementById("texto"); // Traer el valor de texto
 const resultado = document.getElementById("resultado"); // Traer la caja de texto resultado
 const botonCifrar = document.getElementById("Codificar"); // Traer el botón cifrar
 const botonDescifrar = document.getElementById("Decodificar");
-const botonInicio = document.getElementById("inicio")
+const inicio = document.getElementById("inicio")
+const limpiar = document.getElementById("limpiar");
+
+const botonLimpiar =()=>{
+    location.href = "index.html"
+}
+limpiar.addEventListener("click", botonLimpiar)
 
 
-const irAInicio =()=> {
+const botonInicio =()=> {
     location.href = "inicio.html";
 }
-botonInicio.addEventListener("click", irAInicio);
+inicio.addEventListener("click", botonInicio);
+
+
 
 botonCifrar.addEventListener("click", ()=>{
     let textoUsuarioM = textoUsuario.value;

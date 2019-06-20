@@ -49,11 +49,9 @@ body{
     color: #ffffff;
     background-color: black;
     border-radius: 200px;
-    /*border: 2px solid blue;*/
    }
    #empezar:hover{
     color: white;
-    /*background-color: #ffffff;*/
     background-color: #CD5C5C;
    }
   label{
@@ -89,24 +87,6 @@ body{
   }
   .boton:hover{
     color: black;
-    background-color: #CD5C5C;
-   }
-  
-   .boton-inicio{
-    position: ;
-    width: 15%;
-    text-decoration: none;
-    padding: 10px;
-    margin: 1%;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 20px;
-    color: #ffffff;
-    background-color: black;
-    border-radius: 200px;
-   }
-   .boton-inicio:hover{
-    color:black;
     background-color: #CD5C5C;
    }
   
