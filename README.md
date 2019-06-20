@@ -7,7 +7,7 @@ CodeAcces es una aplicación para codificar y decodificar claves de acceso para 
 Pense en los usuarios de manera que tengan un acceso personalizado y seguro con el cual sus invitados puedan entrar fácilmente a los eventos privados.
 
 ¿Cúal fue tu proceso para definir el producto final a nivel de experiencia e interfaz?
-Se definio como algo sencillo que no pareciera complejo y fuera fácil de usar con una interfaz amigable y de fácil acceso sin muchos procedimientos para obtener el resultado.
+Se definio como algo sencillo que no pareciera complejo y fuera fácil de usar con una interfaz amigable y de fácil acceso sin muchos procedimientos para obtener el resultado. Hice una página de inicio en la cual coloque una pequeña descripción de la aplicación y unas instrucciones para los nuevos usuarios, de ahí coloque un botón que te lleva a la siguiente página en donde el usuario podra codificar y decodificar en un mismo espacio.
 
 ¿Quiénes son los principales usuarios del producto?
 Los principales usuarios serán quienes requieran hacer un evento con acceso controlado y seguro de sus invitados.
@@ -17,7 +17,15 @@ El objetivo es mantener un control total sobre el acceso de los invitados, de ta
 
 
 Pasos para descargar, instalar y ejecutar la aplicación
+1 . Descargar Git, hacer cuenta en github
+2 . Entra al siguiente link https://github.com/aliciapalacios10/MEX-008-Cipher y dale click en el botón fork.
+3 . Clona el repositorio, dale click en el boton verde Clone or dowload y copia ese link
+4 . En la terminal dale git clone y pega el link.
+5 . En la terminal entra a la carpeta que se genero de ese repositorio y dale git remote -v para comprobar quien es el master de ese repositorio.
+6 . Listo ahora podras hacer tus propias modificaciones en los archivos.
 
+Ejecutar la aplicacón 
+Entra al siguiente link https://aliciapalacios10.github.io/MEX-008-Cipher/src/inicio.html
 
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
