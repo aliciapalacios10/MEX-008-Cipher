@@ -49,6 +49,8 @@ describe('cipher', () => {
     it('debería retornar "abcdefghijklmnopqrstuvwxyz" para "hijklmnopqrstuvwxyzabcdefg" con offset 33', () => {
       assert.equal(
        cipher.decode(33, 'hijklmnopqrstuvwxyzabcdefg'), 'abcdefghijklmnopqrstuvwxyz' );
+  });
+
     //
     // Hacker edition
     //
@@ -58,7 +60,6 @@ describe('cipher', () => {
     it('debería retornar " !@" para " !@"', () => {
      assert.equal(cipher.decode(33, ' !@'), ' !@');
     });
-  });
 
 });
 });
