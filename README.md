@@ -16,7 +16,7 @@ Los principales usuarios serán quienes requieran hacer un evento con acceso con
 El objetivo es mantener un control total sobre el acceso de los invitados, de tal manera que se evitaría falsificación y/o clonación de accesos, ya que ellos podrán verificar al momento si las claves de acceso son las correctas.
 
 
-Pasos para descargar, instalar y ejecutar la aplicación
+Pasos para descargar, instalar y ejecutar la aplicación : 
 1 . Descargar Git, hacer cuenta en github
 2 . Entra al siguiente link https://github.com/aliciapalacios10/MEX-008-Cipher y dale click en el botón fork.
 3 . Clona el repositorio, dale click en el boton verde Clone or dowload y copia ese link
@@ -24,7 +24,7 @@ Pasos para descargar, instalar y ejecutar la aplicación
 5 . En la terminal entra a la carpeta que se genero de ese repositorio y dale git remote -v para comprobar quien es el master de ese repositorio.
 6 . Listo ahora podras hacer tus propias modificaciones en los archivos.
 
-Ejecutar la aplicacón 
+Ejecutar la aplicacón : 
 Entra al siguiente link https://aliciapalacios10.github.io/MEX-008-Cipher/src/inicio.html
 
 
