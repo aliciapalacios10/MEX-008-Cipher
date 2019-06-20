@@ -19,10 +19,13 @@ El objetivo es mantener un control total sobre el acceso de los invitados, de ta
 Pasos para descargar, instalar y ejecutar la aplicación : 
 1 . Descargar Git, hacer cuenta en github
 2 . Entra al siguiente link https://github.com/aliciapalacios10/MEX-008-Cipher y dale click en el botón fork.
-3 . Clona el repositorio, dale click en el boton verde Clone or dowload y copia ese link
+3 . Clona el repositorio para tenerlo como una copia local, dale click en el boton verde Clone or dowload y copia ese link
 4 . En la terminal dale git clone y pega el link.
 5 . En la terminal entra a la carpeta que se genero de ese repositorio y dale git remote -v para comprobar quien es el master de ese repositorio.
 6 . Listo ahora podras hacer tus propias modificaciones en los archivos.
+
+Para correr los test tendras que descargar Node.js https://nodejs.org/es/, una vez descargado en la terminal ejecuta el comando npm install, para instalar las dependencias del proyecto. Una vez instalado podras ejecutar el comando npm run test, para correr los test.
+
 
 Ejecutar la aplicacón : 
 Entra al siguiente link https://aliciapalacios10.github.io/MEX-008-Cipher/src/inicio.html
